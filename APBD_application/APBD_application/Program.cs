@@ -6,7 +6,7 @@
 
         Console.WriteLine();
         Console.WriteLine("Średnia: " + Srednia(tab));
-        Console.WriteLine("Max: " + Srednia(tab));
+        Console.WriteLine("Max: " + Max(tab));
 
         Show(tab);
     }
@@ -14,8 +14,8 @@
     static double Srednia(int[] tab)
     {
         double sum = 0;
-        foreach (var a in tab)
-            sum += a;
+        foreach (var x in tab)
+            sum += x;
 
         return sum / tab.Length;
     }
