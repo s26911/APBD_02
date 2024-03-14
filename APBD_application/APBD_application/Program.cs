@@ -14,8 +14,8 @@
     static double Srednia(int[] tab)
     {
         double sum = 0;
-        foreach (var i in tab)
-            sum += i;
+        foreach (var a in tab)
+            sum += a;
 
         return sum / tab.Length;
     }
